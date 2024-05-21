@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <form action="formulário">
+        <fieldset>
+            <legend><strong>Dados do paciente</strong></legend><br>
+        nome do paciente: <input type ="text" name = "nome" id = "nome"/><br><br>
+        Registro hospitar: <input type ="text" name = "registro" id = "registro"/><br><br>
+        Data de inclusão: <input type ="date" name = "data" id = "data"/><br><br>
+        data de nascimento: <input type ="date" nome = "nascimento" id="nascimento"/><br><br>
+        Email: <input type ="email" nam="email" id ="email"/><br><br>
+        
+        <p><strong> Gênero:</strong></p>
+
+        feminino<input type="radio" id="genero" name="genero" value="Feminino"><br>
+        masculino<input type="radio" id="genero" name="genero" value="Masculino"><br>
+        outro<input type="radio" id="genero" name="genero" value="Outro"><br><br>
+        
+        
+        raça declarada:
+        <select name="raca">
+            <option value =" "></option>
+            <option value ="Branca">Branca</option>
+            <option value ="Negra">Negra</option> 
+            <option value ="Parda">Parda</option>
+            <option value ="Amarelo">Amarelo</option>
+            <option value ="Indigena">Indigena</option>
+            <option value ="Desconhecida">Desconhecida</option>
+        </select>
+        
+        <p><strong>Como ficou sabendo do estudo:</strong></p>
+        <input type ="checkbox" name ="Convidado" id ="Convidado"/> Convidado <br>
+        <input type ="checkbox" name ="internet" id ="internet"/> internet <br>
+        <input type ="checkbox" name ="amigos" id ="amigos"/> amigos <br>
+        <input type ="checkbox" name ="familiares" id ="familiares"/> familiares <br>
+        <input type ="checkbox" name ="outros" id ="outros"/> outros <br><br>
+        <input type ="submit" name ="submit" id ="submit"/>
+    </fieldset>
+    </form>
+</body>
+</html>
